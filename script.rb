@@ -1,13 +1,14 @@
 # ruby script.rb
 
 def bubble_sort(array)
-    i = 0
-    j = 1
-    while j < array.length 
-        puts "#{array[i]} ~ #{array[j]}"
-    
-        i += 1
-        j += 1
+   array.each do |number|
+    i = 1 
+    while i < array.length
+
+       puts "#{number}  @  #{array[i]}"
+       i += 1
+
+        end
     end
 end
 
